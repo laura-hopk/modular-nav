@@ -10,8 +10,58 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #e2e2e2;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+a:hover,
+a:focus,
+.current {
+  background-color: #0074d9;
+  color: #fff;
+  padding: .5em;
+}
+
+a {
+  text-decoration: none;
+  color: #0074d9;
+  padding: .5em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+@media only screen and (min-width: 60em) {
+
+  ul {
+    text-align: right;
+  }
+
+  div {
+    text-align: left;
+  }
+
 }
